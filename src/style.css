@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/** Components Challenge  */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+/** Components Challenge  */
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+/** Components Challenge  */
+.nav-items > li {
+  padding: 10px;
+}
+
+/** Components Challenge  */
+.img {
+  width: 60px;
+}
