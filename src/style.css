@@ -1,5 +1,6 @@
 html,
 body {
+  background-color: #282d35;
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -16,14 +17,45 @@ body {
 .nav-items {
   list-style: none;
   display: flex;
+  min-height: 100px;
+  background-color: #21222a;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/** Components Challenge  */
-.nav-items > li {
-  padding: 10px;
+.item {
+  display: flex;
+  align-items: center;
 }
 
-/** Components Challenge  */
+.extra-title {
+  color: #deebf8;
+}
+
+.facts {
+  color: #61dafb;
+}
+
 .img {
-  width: 60px;
+  width: 30px;
+  height: 30px;
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.list > li::marker {
+  padding: 10px;
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+.container {
+  background-image: url(./images/icon2.png);
+  background-repeat: no-repeat;
+  background-position: right 70%;
+  padding: 20px;
+  color: #ffffff;
 }
